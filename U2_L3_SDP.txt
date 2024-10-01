@@ -1,0 +1,9 @@
+1. In the place_token method, as it will place the token that is selected and change the token to the next players turn for the next token to be placed.
+
+2. The way that I plan for the user to be able to interact with the tic tac toe board is by having them select the row they want to place their token in, and then select between left, middle, and right for their placement.
+
+3. check_win should be called within is_winner as it'll determine if a user wins by an if statement, which its condition will be if the player or the computer has won the game.
+
+4. The slot selection will be its own function, taking in either the player or computers token, and give a set of inputs to the player to add their token to the slot. The second function that'll allow the game to work is the output, which will constantly update and clear the output for a clear vision of the game and what's happening.
+
+5. For each row, it will check if all three of the slots are equal to the same symbol, and for diagonal crosses, two if statements will check if the only two possible diagonal crosses have the same symbol in all 3 slots.
